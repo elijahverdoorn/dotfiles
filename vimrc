@@ -33,3 +33,9 @@ set number
 syntax enable
 set background=dark
 colorscheme solarized
+
+" fix some annoying things with capital letters for :w and :q
+:command WQ wq 
+:command Wq wq
+:command Q q
+:command W w
