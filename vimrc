@@ -8,11 +8,11 @@ call vundle#begin()
 
 " Add all the plugins here
 Plugin 'VundleVim/Vundle.vim' " Vundle manages vundle
-Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-airline/vim-airline'
-
+Plugin 'scrooloose/nerdtree' " Tree view of file tree
+Plugin 'altercation/vim-colors-solarized' " Solarized colorscheme
+Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy File finder
+Plugin 'vim-airline/vim-airline' " status bar for the bottom of vim
+Plugin 'ntpeters/vim-better-whitespace' " Highlight trailing whitespace
 
 " end the plugins
 call vundle#end()
@@ -35,7 +35,7 @@ set background=dark
 colorscheme solarized
 
 " fix some annoying things with capital letters for :w and :q
-:command WQ wq 
+:command WQ wq
 :command Wq wq
 :command Q q
 :command W w
