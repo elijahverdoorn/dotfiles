@@ -5,7 +5,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
 " Add all the plugins here
 Plugin 'VundleVim/Vundle.vim' " Vundle manages vundle
 Plugin 'scrooloose/nerdtree' " Tree view of file tree
@@ -13,6 +12,7 @@ Plugin 'altercation/vim-colors-solarized' " Solarized colorscheme
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy File finder
 Plugin 'vim-airline/vim-airline' " status bar for the bottom of vim
 Plugin 'ntpeters/vim-better-whitespace' " Highlight trailing whitespace
+Plugin 'vim-syntastic/syntastic' " Syntax checker for Vim
 
 " end the plugins
 call vundle#end()
