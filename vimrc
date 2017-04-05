@@ -52,3 +52,15 @@ colorscheme solarized
 :command Wq wq
 :command Q q
 :command W w
+
+" more sensible keybindings for splits
+nnoremap <C-J> <C-W><C-J> " move btween splits with just Ctrl-HJKL
+nnoremap <C-K> <C-W><C-K> " move btween splits with just Ctrl-HJKL
+nnoremap <C-H> <C-W><C-H> " move btween splits with just Ctrl-HJKL
+nnoremap <C-L> <C-W><C-L> " move btween splits with just Ctrl-HJKL
+
+" open splits to the right of and below the current file, which feels better
+" than the alternative
+set splitbelow
+set splitright
+
