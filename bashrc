@@ -117,3 +117,6 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# load Node Version Manager
+export NVM_DIR="/home/elijah/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
