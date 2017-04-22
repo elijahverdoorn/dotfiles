@@ -117,3 +117,5 @@ fi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+# make vim easier to access
+alias v='vim'
