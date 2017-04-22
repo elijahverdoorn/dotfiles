@@ -119,3 +119,7 @@ export EDITOR="$VISUAL"
 
 # make vim easier to access
 alias v='vim'
+
+# load Node Version Manager
+export NVM_DIR="/home/elijah/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
