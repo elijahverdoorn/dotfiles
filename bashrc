@@ -123,3 +123,8 @@ alias v='vim'
 # load Node Version Manager
 export NVM_DIR="/home/elijah/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# make git a little faster
+alias g='git'
+alias glom='git pull origin master'
+alias gpom='git push origin master'
