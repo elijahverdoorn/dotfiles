@@ -64,3 +64,12 @@ nnoremap <C-L> <C-W><C-L> " move btween splits with just Ctrl-HJKL
 set splitbelow
 set splitright
 
+" set filetypes properly
+autocmd BufRead,BufNewFile *.md set filetype=markdown
+
+" Spellcheck
+" set spelllang=en_us
+set complete+=kspell " when spellchecking is on, completion should be too
+autocmd FileType markdown setlocal spell " markdown files
+autocmd FileType gitcommit setlocal spell " git commit messages
+
