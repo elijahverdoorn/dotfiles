@@ -1,6 +1,9 @@
 set nocompatible
 filetype off
 
+" vim should always use bash
+set shell=/bin/bash
+
 " init vundle and run it
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -13,6 +16,7 @@ Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy File finder
 Plugin 'vim-airline/vim-airline' " status bar for the bottom of vim
 Plugin 'ntpeters/vim-better-whitespace' " Highlight trailing whitespace
 Plugin 'vim-syntastic/syntastic' " Syntax checker for Vim
+Plugin 'tpope/vim-fugitive' " git wrapper for vim
 
 " end the plugins
 call vundle#end()
@@ -54,10 +58,11 @@ colorscheme solarized
 :command W w
 
 " more sensible keybindings for splits
-nnoremap <C-J> <C-W><C-J> " move btween splits with just Ctrl-HJKL
-nnoremap <C-K> <C-W><C-K> " move btween splits with just Ctrl-HJKL
-nnoremap <C-H> <C-W><C-H> " move btween splits with just Ctrl-HJKL
-nnoremap <C-L> <C-W><C-L> " move btween splits with just Ctrl-HJKL
+" move between splits with just <ctrl>-hjkl
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
 
 " open splits to the right of and below the current file, which feels better
 " than the alternative
