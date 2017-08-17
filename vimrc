@@ -84,3 +84,6 @@ set complete+=kspell " when spellchecking is on, completion should be too
 autocmd FileType markdown setlocal spell " markdown files
 autocmd FileType gitcommit setlocal spell " git commit messages
 
+" Filetype preferences
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+
