@@ -26,9 +26,10 @@ filetype plugin indent on
 " Set NerdTree hotkey
 map <C-n> :NERDTreeToggle<CR>
 
-" Set CTRL-p hotkey
+" Settings for CTRL-p
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git'
 
 " Setup Syntastic for C++
 let g:syntastic_cpp_compiler = 'g++'
