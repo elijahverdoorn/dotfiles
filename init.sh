@@ -37,3 +37,6 @@ ln -s vimrc ~/.vimrc
 
 # install vim plugins
 vim +PluginInstall +qall
+
+# copy fish functions
+fish copy.fish
