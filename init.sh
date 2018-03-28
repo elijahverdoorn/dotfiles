@@ -28,6 +28,7 @@ brew install python
 
 # install pandoc
 brew install pandoc
+brew cask install basictex
 
 # set git name
 git config --global user.name "Elijah Verdoorn"
