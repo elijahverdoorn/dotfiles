@@ -23,6 +23,12 @@ brew cask install google-chrome
 # install tree
 brew install tree
 
+# install python
+brew install python
+
+# install pandoc
+brew install pandoc
+
 # set git name
 git config --global user.name "Elijah Verdoorn"
 
