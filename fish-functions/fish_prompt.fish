@@ -3,7 +3,14 @@ function fish_prompt # Custom prompt for fish shell
 		# this is a git directory, so we want to show the current branch
 		set_color blue
 		echo -n (pwd)
-		set_color green
+		set -l git_status (git status -s)
+		if test -n "$git_status"
+			# git dir is dirty, show branch name in red
+			set_color red
+		else
+			# git dir is not dirty, green branch name
+			set_color green
+		end
 		echo -n ' ('(git rev-parse --abbrev-ref HEAD)')'
 		set_color blue
 		echo -n ' > '
