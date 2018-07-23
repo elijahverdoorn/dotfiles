@@ -8,8 +8,11 @@
 # install iterm2
 brew cask install iterm2
 
-# install fish 
+# install fish
 brew install fish
+
+# install sl
+brew install sl
 
 # clone solarized
 git clone git@github.com:altercation/solarized.git ~/solarized
