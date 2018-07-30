@@ -43,7 +43,10 @@ git config --global core.editor $(which vim)
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # symlink .vimrc
-ln -s vimrc ~/.vimrc
+ln -sf ~/dotfiles/vimrc ~/.vimrc
+
+# symlink .vimrc
+ln -sf ~/dotfiles/ideavimrc ~/.ideavimrc
 
 # install vim plugins
 vim +PluginInstall +qall
