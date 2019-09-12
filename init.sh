@@ -29,6 +29,9 @@ brew install tree
 # install python
 brew install python
 
+# install java
+brew cask install java
+
 # install pandoc
 brew install pandoc
 brew cask install basictex
