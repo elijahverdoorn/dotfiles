@@ -32,6 +32,9 @@ brew install python
 # install java
 brew cask install java
 
+# install imagemagick
+brew install imagemagick
+
 # install pandoc
 brew install pandoc
 brew cask install basictex
