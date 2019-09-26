@@ -32,6 +32,9 @@ brew install python
 # install java
 brew cask install java
 
+# install ktlint
+brew install ktlint
+
 # install imagemagick
 brew install imagemagick
 
