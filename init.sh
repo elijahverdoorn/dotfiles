@@ -35,6 +35,9 @@ brew cask install java
 # install ktlint
 brew install ktlint
 
+# install nodejs
+brew install nodejs
+
 # install imagemagick
 brew install imagemagick
 
