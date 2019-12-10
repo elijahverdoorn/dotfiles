@@ -45,6 +45,9 @@ brew install imagemagick
 brew install pandoc
 brew cask install basictex
 
+# install firebase CLI tools from Node
+npm install -g firebase-tools
+
 # set git name
 git config --global user.name "Elijah Verdoorn"
 
