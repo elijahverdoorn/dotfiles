@@ -83,6 +83,8 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 " set spelllang=en_us
 set complete+=kspell " when spellchecking is on, completion should be too
 autocmd FileType markdown setlocal spell " markdown files
+autocmd FileType tex setlocal spell " tex files
+autocmd FileType latex setlocal spell " latex files
 autocmd FileType gitcommit setlocal spell " git commit messages
 
 " Filetype preferences
