@@ -3,6 +3,7 @@ apt install git
 apt install vim
 apt install sl
 apt install tree
+apt install curl
 
 # Git configurations
 git config --global user.name "Elijah Verdoorn"
@@ -25,4 +26,23 @@ chsh -s /usr/bin/fish
 
 # LaTex
 apt-get install pandoc
+apt-get install texlive
 
+# NPM
+apt-get install npm
+
+# Android Studio libraries
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+
+# Java
+apt install openjdk-8-jdk
+
+# Kotlin CLI compiler
+# See https://kotlinlang.org/docs/tutorials/command-line.html
+snap install kotlin --classic
+
+# Android Studio
+snap install android-studio --classic
+
+# Slack
+snap install slack --classic
