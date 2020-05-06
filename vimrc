@@ -51,7 +51,7 @@ set number
 " Set the colorscheme
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 " configure airline
 let g:airline_theme='solarized'
