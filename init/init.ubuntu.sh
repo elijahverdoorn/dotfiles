@@ -1,9 +1,9 @@
 # Various utilities
-apt install git
-apt install vim
-apt install sl
-apt install tree
-apt install curl
+sudo apt install git
+sudo apt install vim
+sudo apt install sl
+sudo apt install tree
+sudo apt install curl
 
 # Git configurations
 git config --global user.name "Elijah Verdoorn"
