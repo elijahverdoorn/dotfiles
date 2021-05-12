@@ -1,4 +1,8 @@
 function fish_prompt # Custom prompt for fish shell
+	if set -q VIRTUAL_ENV
+		# using a virtual python env, put that in the prompt
+		echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "
+	end
 	if git rev-parse --git-dir > /dev/null ^ /dev/null
 		# this is a git directory, so we want to show the current branch
 		set_color blue
