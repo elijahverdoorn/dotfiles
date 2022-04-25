@@ -1,4 +1,4 @@
-function fish_prompt # Custom prompt for fish shell
+function deprecated_fish_prompt # Custom prompt for fish shell
 	if set -q VIRTUAL_ENV
 		# using a virtual python env, put that in the prompt
 		echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "

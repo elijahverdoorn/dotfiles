@@ -5,6 +5,6 @@ rm -rf ~/.config/fish/functions/
 mkdir ~/.config/fish/functions/
 cp -v ./fish-functions/* ~/.config/fish/functions/
 
-cp config.fish ~/.config/fish/config.fish
+cp -v config.fish ~/.config/fish/config.fish
 
 exec fish
